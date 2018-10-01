@@ -11,6 +11,9 @@ Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'}
 Plug 'junegunn/fzf.vim'
 Plug 'rking/ag.vim'
 Plug 'jiangmiao/auto-pairs'
+Plug 'scrooloose/nerdtree'
+Plug 'itchyny/lightline.vim'
+Plug 'airblade/vim-rooter'
 call plug#end()
 
 "------------------ Indentation Options -------------------
@@ -25,7 +28,6 @@ set ignorecase
 set incsearch
 set smartcase
 set inccommand=split
-set autochdir
 
 "------------------ User Interface Options -------------------
 set ruler
