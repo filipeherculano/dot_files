@@ -19,6 +19,7 @@ Plug 'airblade/vim-rooter'
 Plug 'valloric/youcompleteme'
 Plug 'vim-airline/vim-airline'
 Plug 'mhinz/vim-signify'
+Plug 'mfukar/robotframework-vim'
 call plug#end()
 
 "------------------ Indentation Options -------------------
@@ -69,10 +70,13 @@ nnoremap <leader>ev :vsplit ~/.config/nvim/init.vim<cr>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
 nnoremap <leader>nt1 :NERDTree ~/project/dmos-dmtdd/devel/dmos-twamp-responder/<cr> :NERDTreeTabsOpen<cr>
 nnoremap <leader>nt2 :NERDTree ~/project/dmos-dmtdd/devel/dmos-twamp-app/<cr> :NERDTreeTabsOpen<cr>
-nnoremap <leader>nt3 :NERDTree ~/project/dmos-dmtdd/devel/dmos-vrrp-app/<cr> :NERDTreeTabsOpen<cr>
-nnoremap <leader>nt4 :NERDTree ~/project/dmos-dmtdd/devel/dmos-db-intf/<cr> :NERDTreeTabsOpen<cr>
-nnoremap <leader>nt5 :NERDTree ~/Maratona/prova<cr> :NERDTreeTabsOpen<cr>
-nnoremap <leader>nt6 :NERDTree ~/warsaw<cr> :NERDTreeTabsOpen<cr>
+nnoremap <leader>nt3 :NERDTree ~/project/dmos-dmtdd/devel/dmos-twamp-libs/<cr> :NERDTreeTabsOpen<cr>
+nnoremap <leader>nt4 :NERDTree ~/project/dmos-dmtdd/devel/dmos-twamp-controller/<cr> :NERDTreeTabsOpen<cr>
+nnoremap <leader>nt5 :NERDTree ~/project/dmos-dmtdd/devel/dmos-db-intf/<cr> :NERDTreeTabsOpen<cr>
+nnoremap <leader>nt6 :NERDTree ~/Maratona/prova<cr> :NERDTreeTabsOpen<cr>
+nnoremap <leader>nt7 :NERDTree ~/warsaw<cr> :NERDTreeTabsOpen<cr>
+nnoremap <leader>nt8 :NERDTree ~/project/dmos-dmtdd/devel/dmos-tests-twamp<cr> :NERDTreeTabsOpen<cr>
+nnoremap <leader>nt9 :NERDTree ~/project/dmos-dmtdd/devel/dmos-ip-application<cr> :NERDTreeTabsOpen<cr>
 nnoremap <c-p> :Files<cr>
 nnoremap <c-f> :Ag<space>
 nnoremap <leader><c-t> :tabnew<cr>
