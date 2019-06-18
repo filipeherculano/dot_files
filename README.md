@@ -12,7 +12,7 @@ sudo apt install silversearcher-ag clang-format ctags
 Then, you must open Neovim and go into your nvim config file. There is already a shortcut to it
 
 ```
-CTRL-EV
+SPACE-EV
 ```
 
 Lastly, install all plugins entering Neovim command
