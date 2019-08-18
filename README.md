@@ -6,7 +6,7 @@ Clone this repository into your `~/.config/` folder and then install the require
 cd ~/.config/
 git clone https://github.com/filipeherculano/nvim
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-sudo apt install silversearcher-ag clang-format ctags cmake neovim python-dev
+sudo apt install silversearcher-ag clang-format ctags cmake neovim python-dev build-essential
 ```
 
 Then, you must open Neovim and go into your nvim config file. There is already a shortcut to it
@@ -26,5 +26,5 @@ After this, you must compile youcompleteme plugin. To do this, while on NeoVim, 
 ```
 F4
 cd ~/.config/nvim/plugged/youcompleteme
-./install.sh
+python install.py
 ```
